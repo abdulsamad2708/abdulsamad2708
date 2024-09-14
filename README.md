@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @MohammmedAbdulSamad123
 - 👀 I’m interested in learning programming languages
-- 🌱 I’m currently learning Advanced Java
-- 💞️ I’m looking to collaborate on Python, HTML, Java, JavaScript
+- 🌱 I’m currently learning Full Stack Development
+- 💞️ I’m looking to collaborate on Python, HTML, CSS, SQL, Java, etc.
 - 📫 Reach me through my email : mohammedabdulsamad6884@gmail.com
 
 <!---

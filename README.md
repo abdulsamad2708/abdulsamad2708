@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=header" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=130&color=gradient&section=header&reversal=true" width="100%">
 <h1 align="center">Hi 👋! I'm Mohammed Abdul Samad</h1>
 
 ###
@@ -60,4 +60,4 @@
 
 ###
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D9BED1&height=120&section=footer" alt="footer"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&height=130&color=gradient&section=footer&reversal=true" alt="footer"/>

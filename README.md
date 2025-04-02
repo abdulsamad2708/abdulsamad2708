@@ -5,7 +5,7 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=abdulsamad2708&theme=codeSTACKr&show_icons=true&hide_border=false&count_private=true" alt="abdulsamad2708's Stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=abdulsamad2708&show_icons=true&locale=en&layout=compact&theme=codeSTACKr" alt="ovi" height="165">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=anuraghazra&show_icons=true&locale=en&layout=compact&theme=codeSTACKr" alt="ovi" height="165">
 </div>
 
 ###

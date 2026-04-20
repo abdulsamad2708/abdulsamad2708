@@ -4,7 +4,7 @@
 ###
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abdulsamad2708&theme=codeSTACKr&show_icons=true&hide_border=false&count_private=true&hide=issues&show=discussions_started,discussions_answered&rank_icon=github&include_all_commits=true" alt="abdulsamad2708's Stats" height="180">
+  <img src="https://github-readme-stats.vercel.app/api?username=abdulsamad2708&theme=codeSTACKr&show_icons=true&hide_border=false&count_private=true&hide=issues&show=discussions_started,discussions_answered&rank_icon=github&include_all_commits=true" alt="abdulsamad2708's stats" height="180">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=anuraghazra&show_icons=true&locale=en&layout=compact&theme=codeSTACKr" alt="abdulsamad2708's most used languages" height="180">
 </div>
 

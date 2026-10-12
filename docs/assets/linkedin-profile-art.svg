@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="22" y1="0" x2="610" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#176fc1"/><stop offset=".52" stop-color="#104f91"/><stop offset="1" stop-color="#0b1b31"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="223" y1="56" x2="433" y2="265" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#fff" stop-opacity=".055"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="320" rx="18" fill="url(#bg)"/>
+  <path d="M0 64h640M0 256h640M80 0v320M560 0v320" stroke="#d5eaff" stroke-opacity=".09"/>
+  <circle cx="490" cy="65" r="130" fill="#5eb5ff" fill-opacity=".12"/>
+  <circle cx="139" cy="267" r="112" fill="#78c8ff" fill-opacity=".08"/>
+  <rect x="222" y="48" width="196" height="196" rx="42" fill="url(#tile)" stroke="#d8edff" stroke-opacity=".38"/>
+  <path d="M270 126h29v88h-29zm14.5-43c9.5 0 17 7.6 17 17s-7.5 17-17 17-17-7.6-17-17 7.5-17 17-17zm31.5 43h28v12h.4c3.9-7.4 13.5-15.2 27.8-15.2 29.7 0 35.2 19.5 35.2 44.8V214h-29v-40.2c0-9.6-.2-22-13.4-22-13.4 0-15.4 10.5-15.4 21.3V214h-29.6z" fill="#fff"/>
+  <path d="M146 111h28m-14-14v28m321 108h20m-10-10v20" stroke="#b9e2ff" stroke-width="2" stroke-linecap="round" stroke-opacity=".72"/>
+  <circle cx="165" cy="205" r="4" fill="#b9e2ff"/><circle cx="474" cy="134" r="3" fill="#b9e2ff"/><circle cx="460" cy="246" r="4" fill="#b9e2ff"/>
+  <text x="38" y="284" fill="#d6ebff" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">COMPUTER SCIENCE · ACADIA</text>
+</svg>

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('portfolio-theme')||'dark'}catch(_){document.documentElement.dataset.theme='dark'}</script>
+  <meta name="theme-color" content="#090d14" />
+  <meta name="description" content="Mohammed Abdul Samad — Computer Science student at Acadia University, aspiring software developer." />
+  <title>Mohammed Abdul Samad — Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="assets/ms-mark.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="nav wrap">
+    <a class="wordmark" href="#top" aria-label="Back to top">MS<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#work">Projects</a><a href="#certifications">Certifications</a><a href="#experience">Academics</a>
+    </nav>
+    <div class="nav-actions"><button class="theme-toggle" type="button" aria-label="Switch to light mode"><span class="theme-icon" aria-hidden="true">☼</span><span class="theme-label">LIGHT</span></button><a class="nav-cta" href="#contact">Connect <span>↗</span></a></div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+      <p class="eyebrow reveal"><span class="status-dot"></span> COMPUTER SCIENCE STUDENT <span class="eyebrow-place">· WOLFVILLE, NOVA SCOTIA</span></p>
+        <h1 class="reveal delay-1">Hello, I’m<br><span class="name">Mohammed</span><br><span class="name last-name">Abdul Samad</span><span class="period">.</span></h1>
+        <p class="hero-role reveal delay-2">ACADIA UNIVERSITY <span>·</span> ASPIRING SOFTWARE DEVELOPER</p>
+        <p class="hero-intro reveal delay-3">I’m a first-year Computer Science student at Acadia University. I build small projects with Python, JavaScript, HTML and CSS.</p>
+        <div class="hero-actions reveal delay-3">
+          <a class="button button-dark" href="#work">Explore my work <span>↓</span></a>
+          <a class="text-link" href="#contact">Get in touch <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art reveal delay-2">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="portrait-frame"><img src="assets/mohammed-abdul-samad.jpg" alt="Portrait of Mohammed Abdul Samad"></div>
+        <div class="portrait-note"><span class="status-dot"></span><span>MOHAMMED ABDUL SAMAD<small>COMPUTER SCIENCE · ACADIA</small></span></div>
+        <div class="orbit-tag">✳ <span>PYTHON · COMPUTER SCIENCE</span></div>
+        <span class="art-cross cross-a">✳</span><span class="art-cross cross-b">+</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="intro-band" id="about">
+      <div class="wrap intro-inner">
+        <p class="eyebrow">A QUICK INTRODUCTION</p>
+        <div class="intro-content">
+          <h2 class="reveal">Computer Science<br><em>at Acadia University.</em></h2>
+          <div class="intro-side reveal"><p>I’m studying Computer Science at Acadia University. My current foundations include Python, object-oriented programming, and the problem-solving habits behind good software.</p><a class="text-link" href="#experience">My education <span>↓</span></a></div>
+        </div>
+        <div class="stats reveal"><div><strong>2026</strong><small>STARTED AT ACADIA</small></div><div><strong>4+</strong><small>PROGRAMMING LANGUAGES</small></div><div><strong>Python</strong><small>CURRENT FOCUS</small></div></div>
+      </div>
+    </section>
+
+    <section class="work-section wrap" id="work">
+      <div class="section-heading reveal"><div><p class="eyebrow">PROJECTS I BUILT</p><h2>Learning by <em>building</em></h2></div><span class="section-count">01 — 03</span></div>
+      <p class="project-note reveal">Three projects built with Python and web fundamentals. Open a repository to view the source code and setup instructions.</p>
+      <div class="project-list">
+        <article class="project reveal"><div class="project-index">01</div><div class="project-main"><a class="project-visual project-link visual-application" href="https://github.com/abdulsamad2708/application-tracker" target="_blank" rel="noopener noreferrer"><div class="mock-head"><span>JOB SEARCH TOOL</span><span>01 / 03</span></div><img class="project-logo" src="assets/application-tracker.svg" alt="Application Tracker icon"><div class="mock-title">Application Tracker</div><div class="mock-caption">APPLICATION ORGANIZER</div><div class="mock-foot"><span>PYTHON · FLASK · SQLITE</span><span>GITHUB ↗</span></div></a><div class="project-meta"><div><h3>Application Tracker</h3><p>Track job and internship applications with status updates, notes, filters, and CSV export.</p><a class="source-link" href="https://github.com/abdulsamad2708/application-tracker" target="_blank" rel="noopener noreferrer">View GitHub repository ↗</a></div><div class="tags"><span>PYTHON</span><span>FLASK</span><span>SQLITE</span><span>HTML</span><span>CSS</span></div></div></div><a class="project-arrow" href="https://github.com/abdulsamad2708/application-tracker" target="_blank" rel="noopener noreferrer" aria-label="Open Application Tracker GitHub repository">↗</a></article>
+        <article class="project reveal"><div class="project-index">02</div><div class="project-main"><a class="project-visual project-link visual-csv" href="https://github.com/abdulsamad2708/csv-quality-checker" target="_blank" rel="noopener noreferrer"><div class="mock-head"><span>PYTHON COMMAND LINE</span><span>02 / 03</span></div><img class="project-logo" src="assets/csv-quality-checker.svg" alt="CSV Quality Checker icon"><div class="mock-title">CSV Quality Checker</div><div class="mock-caption">DATA QUALITY REPORTS</div><div class="mock-foot"><span>PYTHON · CSV · CLI</span><span>GITHUB ↗</span></div></a><div class="project-meta"><div><h3>CSV Quality Checker</h3><p>Inspect CSV files for missing values, duplicate rows, and inconsistent headers; export cleaned copies.</p><a class="source-link" href="https://github.com/abdulsamad2708/csv-quality-checker" target="_blank" rel="noopener noreferrer">View GitHub repository ↗</a></div><div class="tags"><span>PYTHON</span><span>STANDARD LIBRARY</span><span>CSV</span><span>CLI</span></div></div></div><a class="project-arrow" href="https://github.com/abdulsamad2708/csv-quality-checker" target="_blank" rel="noopener noreferrer" aria-label="Open CSV Quality Checker GitHub repository">↗</a></article>
+        <article class="project reveal"><div class="project-index">03</div><div class="project-main"><a class="project-visual project-link visual-courseboard" href="https://github.com/abdulsamad2708/courseboard" target="_blank" rel="noopener noreferrer"><div class="mock-head"><span>COURSE PLANNER</span><span>03 / 03</span></div><img class="project-logo" src="assets/courseboard.svg" alt="Courseboard icon"><div class="mock-title">Courseboard</div><div class="mock-caption">COURSE &amp; GRADE PLANNER</div><div class="mock-foot"><span>HTML · CSS · JAVASCRIPT</span><span>GITHUB ↗</span></div></a><div class="project-meta"><div><h3>Courseboard</h3><p>Plan courses and assessments, track due dates, and calculate weighted grades in your browser.</p><a class="source-link" href="https://github.com/abdulsamad2708/courseboard" target="_blank" rel="noopener noreferrer">View GitHub repository ↗</a></div><div class="tags"><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>LOCAL STORAGE</span></div></div></div><a class="project-arrow" href="https://github.com/abdulsamad2708/courseboard" target="_blank" rel="noopener noreferrer" aria-label="Open Courseboard GitHub repository">↗</a></article>
+      </div>
+    </section>
+
+    <section class="credentials-section" id="certifications"><div class="wrap credentials-inner"><div class="section-heading reveal"><div><p class="eyebrow">CERTIFICATIONS</p><h2>My <em>certifications</em></h2></div><span class="section-count">03 CERTIFICATIONS</span></div><div class="credential-grid">
+      <article class="credential-card reveal"><div class="credential-post"><a class="credential-avatar" href="https://verify.openedg.org/?id=okf5.PFhw.CXG4" target="_blank" rel="noopener noreferrer" aria-label="Open certification verification"><img src="assets/certificate-mark.svg" alt="Certificate badge"></a><div class="credential-identity"><a class="credential-name" href="https://verify.openedg.org/?id=okf5.PFhw.CXG4" target="_blank" rel="noopener noreferrer">Certified Associate Python Programmer</a><span>OpenEDG Python Institute · JUL 2026</span></div></div><div class="credential-post-body">Covers object-oriented programming, modules, exceptions, and building multi-module Python programs.</div><a class="credential-link" href="https://verify.openedg.org/?id=okf5.PFhw.CXG4" target="_blank" rel="noopener noreferrer">VIEW CERTIFICATION ↗</a></article>
+      <article class="credential-card reveal"><div class="credential-post"><a class="credential-avatar" href="https://verify.openedg.org/?id=6keb.4XUH.kwoV" target="_blank" rel="noopener noreferrer" aria-label="Open certification verification"><img src="assets/certificate-mark.svg" alt="Certificate badge"></a><div class="credential-identity"><a class="credential-name" href="https://verify.openedg.org/?id=6keb.4XUH.kwoV" target="_blank" rel="noopener noreferrer">Certified Entry-Level Python Programmer</a><span>OpenEDG Python Institute · APR 2026</span></div></div><div class="credential-post-body">Covers Python fundamentals, data types, control flow, collections, functions, and exceptions.</div><a class="credential-link" href="https://verify.openedg.org/?id=6keb.4XUH.kwoV" target="_blank" rel="noopener noreferrer">VIEW CERTIFICATION ↗</a></article>
+      <article class="credential-card reveal"><div class="credential-post"><a class="credential-avatar" href="https://www.guvi.in/certificate?id=A181622TP96ZV2Jy31" target="_blank" rel="noopener noreferrer" aria-label="Open GUVI certificate verification"><img src="assets/certificate-mark.svg" alt="Certificate badge"></a><div class="credential-identity"><a class="credential-name" href="https://www.guvi.in/certificate?id=A181622TP96ZV2Jy31" target="_blank" rel="noopener noreferrer">Build a Face Recognition Application using Python</a><span>HCL GUVI · APR 2021</span></div></div><div class="credential-post-body">A hands-on Python project focused on creating a face recognition application.</div><a class="credential-link" href="https://www.guvi.in/certificate?id=A181622TP96ZV2Jy31" target="_blank" rel="noopener noreferrer">VIEW CERTIFICATION ↗</a></article>
+    </div></div></section>
+
+    <section class="experience-section" id="experience"><div class="wrap experience-inner"><div class="section-heading reveal"><div><p class="eyebrow">EDUCATION</p><h2>Academic <em>background</em></h2></div><span class="section-count">01 — 02</span></div><div class="timeline"><article class="timeline-row reveal"><span class="timeline-date">SEP 2026 — APR 2030</span><div><h3><a href="https://www2.acadiau.ca/" target="_blank" rel="noopener noreferrer">Acadia University <span>↗</span></a></h3><p>Bachelor of Computer Science · Wolfville, Nova Scotia</p><small>Developing core knowledge in computer science, programming, and software development.</small></div><span class="timeline-kind">FIRST-YEAR STUDENT</span></article><article class="timeline-row reveal"><span class="timeline-date">APR 2012 — APR 2026</span><div><h3><a href="https://www.cbse.gov.in/" target="_blank" rel="noopener noreferrer">Central Board of Secondary Education <span>↗</span></a></h3><p>High School Diploma</p><small>Completed secondary education before beginning my Computer Science degree.</small></div><span class="timeline-kind">EDUCATION</span></article></div></div></section>
+
+    <section class="profile-band" id="profiles"><div class="wrap profile-band-inner"><div class="profile-band-heading"><p class="eyebrow">PUBLIC PROFILES</p><h2>LinkedIn <em>&amp; GitHub</em></h2></div><div class="profile-cards"><a class="profile-card" href="https://www.linkedin.com/in/abdulsamad2708/" target="_blank" rel="noopener noreferrer"><div class="profile-image linkedin-image"><img src="assets/linkedin-profile-art.svg" alt="LinkedIn themed blue profile banner"></div><div class="profile-copy"><span class="profile-network">LINKEDIN</span><strong>Mohammed Abdul Samad</strong><span class="profile-description">Computer Science student at Acadia University</span><span class="profile-action">VIEW LINKEDIN PROFILE ↗</span></div></a><a class="profile-card" href="https://github.com/abdulsamad2708" target="_blank" rel="noopener noreferrer"><div class="profile-image github-image"><img src="assets/github-profile-art.svg" alt="Code brackets illustration"></div><div class="profile-copy"><span class="profile-network">GITHUB</span><strong>abdulsamad2708</strong><span class="profile-description">Code and personal projects</span><span class="profile-action">VIEW GITHUB PROFILE ↗</span></div></a></div></div></section>
+
+    <section class="contact wrap" id="contact"><div class="contact-main"><p class="eyebrow reveal">CONTACT</p><h2 class="reveal">Get in <em>touch.</em></h2><div class="contact-actions reveal"><a class="contact-button" href="mailto:mohammedabdulsamad6884@gmail.com">Email me <span>↗</span></a></div></div><aside class="language-panel reveal"><h3>Languages</h3><ul><li><span class="language-dot"></span>English - C2</li><li><span class="language-dot"></span>French - A1</li><li><span class="language-dot"></span>Urdu - C1</li><li><span class="language-dot"></span>Hindi - C1</li></ul></aside><div class="contact-orbit" aria-hidden="true">✳</div></section>
+  </main>
+
+  <footer class="footer wrap"><a class="wordmark" href="#top">MS<span>.</span></a><span>© <span id="year"></span> MOHAMMED ABDUL SAMAD</span><div class="footer-links"><a href="https://github.com/abdulsamad2708" target="_blank" rel="noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/in/abdulsamad2708/" target="_blank" rel="noreferrer">LINKEDIN ↗</a></div><a class="back-top" href="#top">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+  <script src="theme.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#182b46"/><stop offset="1" stop-color="#0d1727"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="130" y1="254" x2="520" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5d9be9" stop-opacity="0"/><stop offset=".52" stop-color="#82b4f7" stop-opacity=".72"/><stop offset="1" stop-color="#5d9be9" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="320" rx="18" fill="url(#bg)"/>
+  <circle cx="470" cy="75" r="86" fill="#26486e" fill-opacity=".25"/>
+  <path d="M182 0v320M458 0v320M0 160h640" stroke="#bed7f5" stroke-opacity=".07"/>
+  <rect x="223" y="42" width="194" height="236" rx="94" stroke="#8db9ee" stroke-opacity=".3"/>
+  <path d="M271 127c0-34 21-58 49-58s49 24 49 58v37c0 44-22 75-49 75s-49-31-49-75v-37Z" fill="#426b98" fill-opacity=".42" stroke="#c8def8" stroke-opacity=".62" stroke-width="2"/>
+  <path d="M287 143h1m63 0h1" stroke="#e8f2fd" stroke-width="8" stroke-linecap="round"/>
+  <path d="M302 177c9 8 19 8 28 0" stroke="#bdd7f4" stroke-width="3" stroke-linecap="round"/>
+  <path d="M246 83h28M246 83v28m141-28h28m0 0v28m-169 125v28h28m141-28v28h-28" stroke="#8bb8ef" stroke-width="3" stroke-linecap="round"/>
+  <path d="M252 220 389 87" stroke="url(#beam)" stroke-width="2"/>
+  <circle cx="460" cy="227" r="24" fill="#132238" stroke="#72a9f4" stroke-opacity=".58"/>
+  <path d="m449 227 8 8 15-17" stroke="#9fc8fb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="171" cy="77" r="3" fill="#8ab8f8"/><circle cx="490" cy="168" r="2" fill="#8ab8f8"/><circle cx="153" cy="244" r="2" fill="#8ab8f8"/>
+  <text x="38" y="284" fill="#c8dcf7" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">COMPUTER VISION · PYTHON</text>
+</svg>

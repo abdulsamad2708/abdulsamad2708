@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="35" y1="18" x2="618" y2="312" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#183251"/><stop offset="1" stop-color="#0b1422"/>
+    </linearGradient>
+    <linearGradient id="line" x1="170" y1="87" x2="481" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9cc5f7"/><stop offset="1" stop-color="#4d83c2"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="320" rx="18" fill="url(#bg)"/>
+  <path d="M0 62h640M0 258h640M80 0v320M560 0v320" stroke="#b4d1f1" stroke-opacity=".08"/>
+  <circle cx="322" cy="160" r="92" fill="#12243a" stroke="#5278a3" stroke-opacity=".45"/>
+  <path d="m272 129-36 31 36 31m100-62 36 31-36 31m-25-82-50 102" stroke="url(#line)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="167" cy="87" r="4" fill="#83b5ee"/><circle cx="468" cy="85" r="3" fill="#83b5ee"/><circle cx="472" cy="241" r="4" fill="#83b5ee"/><circle cx="160" cy="232" r="2.5" fill="#83b5ee"/>
+  <text x="38" y="284" fill="#c8dcf7" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">PYTHON · WEB PROJECTS</text>
+</svg>

@@ -56,3 +56,5 @@ html{color-scheme:dark;scroll-behavior:smooth}html[data-theme="dark"]{--paper:#0
 html[data-theme="light"] .visual-application{background:radial-gradient(ellipse at 50% 48%,#cbdcf2 0,#e2ebf6 48%,#f2f6fb 100%)}
 html[data-theme="light"] .visual-csv{background:radial-gradient(ellipse at 50% 48%,#d2def0 0,#e7edf6 48%,#f4f7fa 100%)}
 html[data-theme="light"] .visual-courseboard{background:radial-gradient(ellipse at 50% 48%,#c6dfed 0,#e1edf4 48%,#f1f6f8 100%)}
+
+.wordmark{display:inline-flex;align-items:center;justify-content:center;letter-spacing:0}.wordmark-mark{display:block;width:36px;height:36px;transition:transform .3s ease,filter .3s ease}.wordmark:hover .wordmark-mark{transform:translateY(-1px) scale(1.04);filter:drop-shadow(0 4px 10px #71aaff55)}
